@@ -1,5 +1,6 @@
 <script lang="ts">
 	import SEO from '$lib/utils/seo/SEO.svelte';
+	import '../app.css';
 	import type { LayoutServerData } from './$types';
 
 	let { data, children }: { data: LayoutServerData; children: any } = $props();
