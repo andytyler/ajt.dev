@@ -13,6 +13,17 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+@layer utilities {
+  .text-huge {
+    font-size: 24rem;
+    line-height: 1;
+    font-weight: 900;
+  }
+}
+
+
+  
+
 
 :root {
   --radius: 0.625rem;

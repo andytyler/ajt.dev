@@ -8,7 +8,11 @@
 
 <SEO />
 
-<main>
+<main class="relative">
+	<div
+		class="absolute inset-0 z-0 h-screen w-screen bg-linear-180 from-transparent to-orange-500"
+	></div>
+
 	{@render children()}
 </main>
 
