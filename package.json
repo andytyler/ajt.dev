@@ -48,6 +48,6 @@
 	},
 	"author": "andytyler",
 	"engines": {
-		"node": "24"
+		"node": ">=18.0.0"
 	}
 }
