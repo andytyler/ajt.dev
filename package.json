@@ -48,7 +48,7 @@
 	},
 	"author": "andytyler",
 	"engines": {
-		"node": "22",
+		"node": "23",
 		"npm": ">=10"
 	}
 }
