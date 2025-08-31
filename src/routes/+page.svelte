@@ -46,7 +46,7 @@
 
 <div class="relative flex min-h-screen w-full items-start justify-center">
 	<div
-		class="absolute top-1/4 left-0 z-20 flex h-full max-h-1/2 w-full flex-col justify-center gap-6 overflow-hidden mask-radial-from-100 text-8xl font-bold text-nowrap text-black uppercase"
+		class="absolute top-1/4 left-0 z-20 flex h-full max-h-1/2 w-full flex-col justify-center gap-6 mask-radial-from-100 text-8xl font-bold text-nowrap text-black uppercase"
 	>
 		{@render text(['Typescript', 'Product', 'SvelteKit', 'Node.js'])}
 		{@render text(['SvelteKit', 'ANDY', 'AI', 'Software Engineer'])}
