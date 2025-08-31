@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
-	import meBlue from '$assets/me-blue-musc.png?enhanced';
+	import meBlue from '$assets/me-blue-bg-no.png?enhanced';
 	import { onMount } from 'svelte';
 	import { quintOut } from 'svelte/easing';
 	import { slide } from 'svelte/transition';
