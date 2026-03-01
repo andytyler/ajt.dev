@@ -8,7 +8,7 @@ function escapeHtml(value: string): string {
 
 function sanitizeUrl(url: string): string {
 	const trimmed = url.trim();
-	if (/^(https?:\/\/|\/)/i.test(trimmed)) {
+	if (/^(https?:\/\/|mailto:|\/)/i.test(trimmed)) {
 		return trimmed;
 	}
 	return '#';
@@ -24,12 +24,12 @@ function toIconTarget(url: string): string {
 	return url;
 }
 
-export function getIconUrl(url: string): string {
+function getIconUrl(url: string): string {
 	return `https://geticon.io/img?url=${toIconTarget(url)}&size=256`;
 }
 
-const LINK_PATTERN = /\[([^\]]+)\]\(([^)\s]+)(?:\s+(?:"([^"]*)"|'([^']*)'))?\)/g;
-const SINGLE_LINK_PATTERN = /^\[([^\]]+)\]\(([^)\s]+)(?:\s+(?:"([^"]*)"|'([^']*)'))?\)$/;
+const LINK_PATTERN = /\[([^\]]+)\]\(([^),\s]+)(?:,\s*([^)\s]+))?(?:\s+(?:"([^"]*)"|'([^']*)'))?\)/g;
+const SINGLE_LINK_PATTERN = /^\[([^\]]+)\]\(([^),\s]+)(?:,\s*([^)\s]+))?(?:\s+(?:"([^"]*)"|'([^']*)'))?\)$/;
 
 function slugify(value: string): string {
 	return value
@@ -68,14 +68,20 @@ function parseLinkTitleMeta(rawTitle?: string): { classes: string[]; cleanTitle?
 	};
 }
 
-function renderMarkdownLink(label: string, href: string, rawTitle?: string): string {
+function renderMarkdownLink(
+	label: string,
+	href: string,
+	rawTitle?: string,
+	iconUrl?: string
+): string {
 	const url = sanitizeUrl(href);
 	const external = /^https?:\/\//i.test(url);
 	const attrs = external ? ' target="_blank" rel="noopener noreferrer"' : '';
 	const { classes, cleanTitle } = parseLinkTitleMeta(rawTitle);
 	const classAttr = ['dev-link', ...classes].join(' ');
 	const titleAttr = cleanTitle ? ` title="${escapeHtml(cleanTitle)}"` : '';
-	const icon = `<img src="${escapeHtml(getIconUrl(url))}" alt="" class="dev-link-icon" loading="lazy" decoding="async" />`;
+	const iconSrc = getIconUrl(iconUrl ? sanitizeUrl(iconUrl) : url);
+	const icon = `<img src="${escapeHtml(iconSrc)}" alt="" class="dev-link-icon" loading="lazy" decoding="async" />`;
 	return `<a href="${escapeHtml(url)}" class="${classAttr}"${titleAttr}${attrs}>${icon}<span>${escapeHtml(label)}</span></a>`;
 }
 
@@ -84,7 +90,7 @@ function parseSingleLinkItem(item: string): { classes: string[] } | null {
 	if (!match) {
 		return null;
 	}
-	const { classes } = parseLinkTitleMeta(match[3] ?? match[4]);
+	const { classes } = parseLinkTitleMeta(match[4] ?? match[5]);
 	return { classes };
 }
 
@@ -112,8 +118,17 @@ function renderInline(text: string): string {
 
 	value = value.replace(
 		LINK_PATTERN,
-		(_match, label: string, href: string, doubleQuotedTitle?: string, singleQuotedTitle?: string) =>
-			toToken(renderMarkdownLink(label, href, doubleQuotedTitle ?? singleQuotedTitle))
+		(
+			_match,
+			label: string,
+			href: string,
+			iconUrl: string | undefined,
+			doubleQuotedTitle?: string,
+			singleQuotedTitle?: string
+		) =>
+			toToken(
+				renderMarkdownLink(label, href, doubleQuotedTitle ?? singleQuotedTitle, iconUrl)
+			)
 	);
 
 	value = escapeHtml(value);

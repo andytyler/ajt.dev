@@ -48,12 +48,25 @@
 	}
 
 	:global(.dev-prose h2) {
-		margin-top: 1.6rem;
+		margin-top: 1.8rem;
 		margin-bottom: 0.5rem;
-		font-size: 1.1rem;
-		font-weight: 700;
+		font-size: 0.72rem;
+		font-weight: 600;
 		line-height: 1.3;
-		color: var(--foreground);
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		color: oklch(0.92 0.01 60 / 45%);
+	}
+
+	:global(.dev-prose h3) {
+		margin-top: 1.4rem;
+		margin-bottom: 0.35rem;
+		font-size: 0.68rem;
+		font-weight: 600;
+		line-height: 1.3;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: oklch(0.92 0.01 60 / 35%);
 	}
 
 	/* ── Comments ── */
@@ -173,8 +186,8 @@
 		height: 1.15em;
 		width: 1.15em;
 		align-self: center;
-		background: rgba(255, 255, 255, 1);
-		border-radius: 20%;
+		background: var(--muted);
+		border-radius: 10%;
 		flex-shrink: 0;
 		object-fit: fill;
 		object-position: center;

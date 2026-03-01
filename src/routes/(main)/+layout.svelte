@@ -11,9 +11,7 @@
 <SEO />
 
 <main
-	class="relative min-h-screen transition-[background-color,color,filter] duration-[var(--motion-base)] ease-[var(--motion-smooth)] {mode === 'dev'
-		? 'dark dev-theme bg-background text-foreground'
-		: ''}"
+	class="relative min-h-screen bg-background text-foreground transition-[background-color,color,filter] duration-[var(--motion-base)] ease-[var(--motion-smooth)]"
 >
 	<ModeToggle />
 
