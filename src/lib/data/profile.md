@@ -5,7 +5,7 @@ I'm Andy, an **AI Product Engineer** who turns frontier AI into production syste
 Running of [AI Demo Nights](https://aidemonights.ajt.dev), London's largest AI builder community: **1,200+ members**, growing **+20%/month**, with regular builders from frontier Labs, YC startups & European Unicorns.
 
 ## Fun facts
-- I won **[1st place]** at the [Anthropic Computer Use Hackathon](https://www.linkedin.com/posts/andrewjtyler_we-won-the-anthropic-computer-use-hackathon-activity-7261862402009264129-Cmn2?utm_source=share&utm_medium=member_desktop&rcm=ACoAACeInoUBSWQungFoM5xEilRRpcUBefFPkhw, https://anthropic.com) at the [AGI House](https://www.agihouse.org/) in San Francisco.
+- I won **[1st place]** at the [Anthropic Computer Use Hackathon](https://www.linkedin.com/posts/andrewjtyler_we-won-the-anthropic-computer-use-hackathon-activity-7261862402009264129-Cmn2?utm_source=share&utm_medium=member_desktop&rcm=ACoAACeInoUBSWQungFoM5xEilRRpcUBefFPkhw, https://anthropic.com) at the AGI House in San Francisco.
 - President of the Computer Science Society at University. Ran many Hackathons & Game Jams
 - Lived in 🇳🇱 Amsterdam while working on [Polaroid's](https://polaroid.com) connected apps strategy.
 
