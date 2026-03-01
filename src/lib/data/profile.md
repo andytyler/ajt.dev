@@ -62,6 +62,6 @@ I'm Building self-defining databases: Agent that reorganizes schemas based on th
 
 ## Connect with me 
 
-[andytyler](https://github.com/andytyler) | [@andy_ajt](https://x.com/ajtdev) | [LinkedIn](https://linkedin.com/in/ajt.dev) | [Email](mailto:andy@ajt.dev, https://ajt.dev/) | [Cal](https://cal.com/andytyler)
+[andytyler](https://github.com/andytyler) | [@andy_ajt](https://x.com/ajtdev) | [LinkedIn](https://linkedin.com/in/ajt.dev) | [Email](mailto:andy@ajt.dev, https://ajt.dev) | [Cal](https://cal.com/andytyler)
 
 //Talk to me about: Building Startups in Europe / Browser Scraping / AI Agents / Commercial Team Tooling / Evals / Browser Use / Agent Architectures / Context Engineering

@@ -3,7 +3,7 @@
 
 	const defaultSEO = {
 		title: 'Andy J Tyler',
-		description: 'Andy J Tyler — software engineer, builder, and maker.',
+		description: 'AJT AI Product Engineer | software engineer, Product Manager & AI Tinkerer.',
 		image: '/favicon.svg',
 		url: 'https://ajt.dev',
 		siteName: 'ajt.dev',
@@ -71,7 +71,7 @@
 
 	<!-- Additional SEO -->
 	<meta name="theme-color" content={themeColor} />
-	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 	<link rel="icon" type="image/png" sizes="any" href="/favicon.png" />
 	<link rel="apple-touch-icon" href="/favicon.png" />
 </svelte:head>
