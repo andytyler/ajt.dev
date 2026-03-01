@@ -3,8 +3,7 @@
 
 	const defaultSEO = {
 		title: 'Andy J Tyler',
-		description:
-			'Andy J Tyler — software engineer, builder, and maker.',
+		description: 'Andy J Tyler — software engineer, builder, and maker.',
 		image: '/favicon.svg',
 		url: 'https://ajt.dev',
 		siteName: 'ajt.dev',
