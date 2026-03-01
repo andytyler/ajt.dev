@@ -10,12 +10,16 @@
 
 <SEO />
 
-<main class="relative {mode === 'dev' ? 'dark bg-background text-foreground min-h-screen' : ''}">
+<main
+	class="relative min-h-screen transition-[background-color,color,filter] duration-[var(--motion-base)] ease-[var(--motion-smooth)] {mode === 'dev'
+		? 'dark dev-theme bg-background text-foreground'
+		: ''}"
+>
 	<ModeToggle />
 
 	{#if mode === 'product'}
 		<div
-			class="absolute inset-0 z-0 h-screen w-screen bg-linear-180 from-transparent to-orange-500"
+			class="absolute inset-0 z-0 h-screen w-screen bg-linear-180 from-transparent to-orange-500 transition-opacity duration-[var(--motion-slow)] ease-[var(--motion-smooth)]"
 		></div>
 	{/if}
 
