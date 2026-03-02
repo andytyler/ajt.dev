@@ -4,8 +4,7 @@ import type { PageServerLoad } from './$types';
 export const load: PageServerLoad = async () => {
 	const seo: Partial<SEOData> = {
 		title: 'Full Stack AI Product Engineer & Technical Founder',
-		description:
-			'Welcome to AJT.dev - Explore my journey as a full stack developer, discover my latest projects, and learn about cutting-edge web technologies including SvelteKit, React, and modern development practices.',
+		description: 'Software Engineer, Product Manager & AI Tinkerer.',
 		url: 'https://ajt.dev'
 	};
 
