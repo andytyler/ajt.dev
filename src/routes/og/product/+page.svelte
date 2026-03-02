@@ -5,7 +5,7 @@
 	import ProductOgPlayful from '$lib/components/og/ProductOgPlayful.svelte';
 	import ProductOgEngineer from '$lib/components/og/ProductOgEngineer.svelte';
 
-	const variant = $derived((page.url.searchParams.get('variant') ?? 'premium').toLowerCase());
+	const variant = $derived((page.url.searchParams.get('variant') ?? 'engineer').toLowerCase());
 </script>
 
 <svelte:head>

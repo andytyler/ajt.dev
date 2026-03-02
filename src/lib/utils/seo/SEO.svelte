@@ -4,7 +4,7 @@
 	const defaultSEO = {
 		title: 'Andy J Tyler',
 		description: 'AJT AI Product Engineer | software engineer, Product Manager & AI Tinkerer.',
-		image: '/favicon.svg',
+		image: '/og-image.jpg',
 		url: 'https://ajt.dev',
 		siteName: 'ajt.dev',
 		type: 'website',

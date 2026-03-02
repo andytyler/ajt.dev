@@ -52,7 +52,7 @@ This creates:
 - `static/og-image-techy.jpg`
 - `static/og-image-playful.jpg`
 - `static/og-image-engineer.jpg`
-- `static/og-image.jpg` (default alias; premium unless overridden)
+- `static/og-image.jpg` (default alias; engineer unless overridden)
 
 Variant preview URLs in dev:
 
@@ -64,7 +64,7 @@ Variant preview URLs in dev:
 To choose the default alias:
 
 ```sh
-OG_DEFAULT_VARIANT=techy npm run og:build
+OG_DEFAULT_VARIANT=engineer npm run og:build
 ```
 
 To generate a subset:

@@ -85,14 +85,14 @@ function getVariantOutputPath(variant) {
 
 async function main() {
 	const variants = parseVariants();
-	const defaultVariant = (process.env.OG_DEFAULT_VARIANT ?? 'premium').toLowerCase();
+	const defaultVariant = (process.env.OG_DEFAULT_VARIANT ?? 'engineer').toLowerCase();
 
 	let puppeteer;
 	try {
 		({ default: puppeteer } = await import('puppeteer-core'));
 	} catch {
 		throw new Error(
-			"Missing dependency: puppeteer-core. Run `npm install -D puppeteer-core` and retry."
+			'Missing dependency: puppeteer-core. Run `npm install -D puppeteer-core` and retry.'
 		);
 	}
 
