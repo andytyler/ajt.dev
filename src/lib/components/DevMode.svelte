@@ -186,7 +186,7 @@
 		height: 1.15em;
 		width: 1.15em;
 		align-self: center;
-		background: var(--muted);
+		background: var(--color-white);
 		border-radius: 10%;
 		flex-shrink: 0;
 		object-fit: fill;

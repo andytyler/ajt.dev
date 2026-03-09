@@ -1,11 +1,13 @@
+I'm Andy, an **AI Product Engineer**.
 
-I built a browser-use agent before Anthropic launched Computer Use, then **won first place** at their hackathon with it.
-I'm Andy, an **AI Product Engineer** who turns frontier AI into production systems people actually use. Over the last decade, I've shipped Alexa voice experiences in [BBC iPlayer](https://bbc.co.uk/iplayer), built **web scraping** infrastructure that has processed billions of URLs. Operated as a **technical founder** in the -1 to 0 phase, running cold outbound, booking user interviews, building and shipping fast to iterate on real problems.
+I built a browser-use agent before Anthropic launched Computer Use, then **won first place** at their hackathon with playwright-ai.
 
-Running of [AI Demo Nights](https://aidemonights.ajt.dev), London's largest AI builder community: **1,200+ members**, growing **+20%/month**, with regular builders from frontier Labs, YC startups & European Unicorns.
+I've shipped Alexa voice experiences in [BBC iPlayer](https://www.bbc.co.uk/iplayer), built **web scraping** for billions of URLs at [kernel.ai](https://kernel.ai) & Operated as a *technical founder* in the -1 to 0 phase.
 
-## Fun facts
-- I won **[1st place]** at the [Anthropic Computer Use Hackathon](https://www.linkedin.com/posts/andrewjtyler_we-won-the-anthropic-computer-use-hackathon-activity-7261862402009264129-Cmn2?utm_source=share&utm_medium=member_desktop&rcm=ACoAACeInoUBSWQungFoM5xEilRRpcUBefFPkhw, https://anthropic.com) at the AGI House in San Francisco.
+
+## Fun facts 
+- I won **[🏆 1st place]** at the [Anthropic Computer Use Hackathon](https://www.linkedin.com/posts/andrewjtyler_we-won-the-anthropic-computer-use-hackathon-activity-7261862402009264129-Cmn2?utm_source=share&utm_medium=member_desktop&rcm=ACoAACeInoUBSWQungFoM5xEilRRpcUBefFPkhw, https://anthropic.com) at the AGI House in San Francisco.
+- Accepted into [Founders, Inc.](https://f.inc) (Ship It W25 batch) - Building an AI SDR starup, Augmented.
 - President of the Computer Science Society at University. Ran many Hackathons & Game Jams
 - Lived in 🇳🇱 Amsterdam while working on [Polaroid's](https://polaroid.com) connected apps strategy.
 
@@ -13,7 +15,9 @@ See more on my [LinkedIn](https://www.linkedin.com/in/andrewjtyler/)
 
 
 ### Right now
-I'm Building self-defining databases: Agent that reorganizes schemas based on the raw data you give it.
+Running [AI Demo Nights](https://aidemonights.ajt.dev), London's largest AI builder community: **1,200+ members**, growing **+20%/month**, with regular builders from frontier Labs, YC startups & European Unicorns.
+
+**Current Project:** I'm Building self-defining databases: Agent that reorganizes schemas based on the raw data you give it.
 
 
 ## Shipped It
@@ -22,7 +26,7 @@ I'm Building self-defining databases: Agent that reorganizes schemas based on th
 - [AI Demo Nights](https://aidemonights.ajt.dev)
 - [getHtml()](https://github.com/andytyler/gethtml): Scraping infrastructure that waterfalls through fetch strategies until one works.
 - [dreamsurf.ai](https://x.com/Andy_AJT/status/1922725276477227471): AI image generaton that you can edit.
-- [caterpillar](https://github.com/andytyler/caterpillar): Open-source macOS finder column view in the terminal, to navigate cwd on the command line.
+- [catnav](https://github.com/andytyler/catnav): Open-source macOS finder / miller column view for the terminal, makes it easy to navigate cwd on the command line.
 //(unsupported)
 - [Supafetch](https://github.com/andytyler/supafetch): Scrape and RAG on any knowledge set with a URL. 
 
@@ -64,4 +68,4 @@ I'm Building self-defining databases: Agent that reorganizes schemas based on th
 
 [andytyler](https://github.com/andytyler) | [@andy_ajt](https://x.com/ajtdev) | [LinkedIn](https://linkedin.com/in/ajt.dev) | [Email](mailto:andy@ajt.dev, https://ajt.dev) | [Cal](https://cal.com/andytyler)
 
-//Talk to me about: Building Startups in Europe / Browser Scraping / AI Agents / Commercial Team Tooling / Evals / Browser Use / Agent Architectures / Context Engineering
+//Talk to me about: Building Startups in Europe / Browser Scraping / AI Agents / Commercial Team Tooling (CRMs etc.) / Evals / Browser Use / Agent Architectures / Context Engineering
