@@ -4,13 +4,15 @@
 	// import asciiArt from '$lib/assets/ascii-art-andy.png';
 	import asciiText from '$lib/assets/ascii-me.txt?raw';
 
+	let { markSource = '/favicon.svg' }: { markSource?: string } = $props();
+
 	const profileHtml = $derived(markdownToHtml(profileMarkdown));
 </script>
 
 <main class="w-full max-w-4xl px-4 py-4 text-left md:px-10 lg:px-14">
 	<div class="mt-6 flex flex-col items-start gap-3">
 		<img
-			src="/favicon.svg"
+			src={markSource}
 			alt="ajt"
 			class="mode-shared-mark h-24 w-24 rounded-[1.1rem] shadow-[0_10px_36px_rgba(0,0,0,0.35)] transition-transform duration-[var(--motion-fast)] ease-[var(--motion-bounce-sm)]"
 		/>

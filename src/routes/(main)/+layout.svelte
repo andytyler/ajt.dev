@@ -1,25 +1,12 @@
 <script lang="ts">
-	import { page } from '$app/state';
+	import type { Snippet } from 'svelte';
 	import SEO from '$lib/utils/seo/SEO.svelte';
-	import ModeToggle from '$lib/components/ModeToggle.svelte';
 
-	let { children }: { children: any } = $props();
-
-	const mode = $derived(page.url.searchParams.get('mode') ?? 'dev');
+	let { children }: { children: Snippet } = $props();
 </script>
 
 <SEO />
 
-<main
-	class="relative min-h-screen bg-background text-foreground transition-[background-color,color,filter] duration-[var(--motion-base)] ease-[var(--motion-smooth)]"
->
-	<ModeToggle />
-
-	{#if mode === 'product'}
-		<div
-			class="absolute inset-0 z-0 h-screen w-screen bg-linear-180 from-transparent to-orange-500 transition-opacity duration-[var(--motion-slow)] ease-[var(--motion-smooth)]"
-		></div>
-	{/if}
-
+<main class="min-h-screen">
 	{@render children()}
 </main>

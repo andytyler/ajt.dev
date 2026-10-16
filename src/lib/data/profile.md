@@ -1,4 +1,4 @@
-I'm Andy, an **AI Product Engineer**.
+I'm Andy, an **Applied AI Product Engineer**.
 
 I built a browser-use agent before Anthropic launched Computer Use, then **won first place** at their hackathon with playwright-ai.
 
@@ -6,7 +6,7 @@ I've shipped Alexa voice experiences in [BBC iPlayer](https://www.bbc.co.uk/ipla
 
 
 ## Fun facts 
-- I won **[🏆 1st place]** at the [Anthropic Computer Use Hackathon](https://www.linkedin.com/posts/andrewjtyler_we-won-the-anthropic-computer-use-hackathon-activity-7261862402009264129-Cmn2?utm_source=share&utm_medium=member_desktop&rcm=ACoAACeInoUBSWQungFoM5xEilRRpcUBefFPkhw, https://anthropic.com) at the AGI House in San Francisco.
+- I won **[🏆 1st place]** at the [Anthropic Computer Use Hackathon](https://www.linkedin.com/posts/andrewjtyler_we-won-the-anthropic-computer-use-hackathon-activity-7261862402009264129-Cmn2?utm_source=share&utm_medium=member_desktop&rcm=ACoAACeInoUBSWQungFoM5xEilRRpcUBefFPkhw) at the AGI House in San Francisco.
 - Accepted into [Founders, Inc.](https://f.inc) (Ship It W25 batch) - Building an AI SDR starup, Augmented.
 - President of the Computer Science Society at University. Ran many Hackathons & Game Jams
 - Lived in 🇳🇱 Amsterdam while working on [Polaroid's](https://polaroid.com) connected apps strategy.
@@ -15,13 +15,20 @@ See more on my [LinkedIn](https://www.linkedin.com/in/andrewjtyler/)
 
 
 ### Right now
-Running [AI Demo Nights](https://aidemonights.ajt.dev), London's largest AI builder community: **1,200+ members**, growing **+20%/month**, with regular builders from frontier Labs, YC startups & European Unicorns.
+Community w/[Outpost](https://outpostcrew.co/) & OpenAI [Codex Ambassador for London, UK](https://developers.openai.com/community). 
+
+Founder of [AI Demo Nights](https://aidemonights.ajt.dev) w//[Outpost](https://outpostcrew.co/): London's Frontier AI builder community:  Grown from 12 peopel demo-ing what they are building in a hut to **~1,200+~ 5,000+ members**, growing **+20%/month**, with regular builders from frontier Labs, YC startups & European Unicorns.
 
 **Current Project:** I'm Building self-defining databases: Agent that reorganizes schemas based on the raw data you give it.
 
+## OpenAI Codex Ambassador
+Come to the next developer community meetup for Codex & meet other people to collaborate with!
+[Codex Community Meetup: London](https://luma.com/codex-ldn-4)
 
 ## Shipped It
 
+- [Codex Pet Bar](https://pet.ajt.dev/)
+- [Luma MCP](https://luma-mcp.ajt.dev/)
 - [playwright-ai](https://github.com/andytyler/playwright-ai): Front-end UX tests in natural language. First place at the Anthropic hackathon in San Francisco.
 - [AI Demo Nights](https://aidemonights.ajt.dev)
 - [getHtml()](https://github.com/andytyler/gethtml): Scraping infrastructure that waterfalls through fetch strategies until one works.
@@ -66,6 +73,6 @@ Running [AI Demo Nights](https://aidemonights.ajt.dev), London's largest AI buil
 
 ## Connect with me 
 
-[andytyler](https://github.com/andytyler) | [@andy_ajt](https://x.com/ajtdev) | [LinkedIn](https://linkedin.com/in/ajt.dev) | [Email](mailto:andy@ajt.dev, https://ajt.dev) | [Cal](https://cal.com/andytyler)
+[andytyler](https://github.com/andytyler) | [@andy_ajt](https://x.com/Andy_AJT) | [LinkedIn](https://www.linkedin.com/in/andrewjtyler/) | [Email](mailto:andy@ajt.dev) | [Cal](https://cal.com/andytyler)
 
 //Talk to me about: Building Startups in Europe / Browser Scraping / AI Agents / Commercial Team Tooling (CRMs etc.) / Evals / Browser Use / Agent Architectures / Context Engineering

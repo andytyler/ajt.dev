@@ -4,7 +4,7 @@
 	const defaultSEO = {
 		title: 'Andy J Tyler',
 		description: 'AJT AI Product Engineer | software engineer, Product Manager & AI Tinkerer.',
-		image: '/og-image.jpg',
+		image: 'https://ajt.dev/og-image-orange.jpg',
 		url: 'https://ajt.dev',
 		siteName: 'ajt.dev',
 		type: 'website',
@@ -12,7 +12,7 @@
 		twitterSite: '@ajt_dev',
 		author: 'Andy J Tyler',
 		robots: 'index, follow',
-		themeColor: '#00ff00'
+		themeColor: '#0f0f0e'
 	};
 
 	const seodata = { ...defaultSEO, ...page.data.seo };
@@ -71,7 +71,7 @@
 
 	<!-- Additional SEO -->
 	<meta name="theme-color" content={themeColor} />
-	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-	<link rel="icon" type="image/png" sizes="any" href="/favicon.png" />
-	<link rel="apple-touch-icon" href="/favicon.png" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=88ff38" />
+	<link rel="icon" type="image/png" sizes="any" href="/favicon.png?v=88ff38" />
+	<link rel="apple-touch-icon" href="/favicon.png?v=88ff38" />
 </svelte:head>

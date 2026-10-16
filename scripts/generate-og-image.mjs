@@ -162,6 +162,9 @@ async function main() {
 				quality: 92,
 				clip: { x: 0, y: 0, width: WIDTH, height: HEIGHT }
 			});
+			if (variant === 'engineer') {
+				await copyFile(outputPath, path.resolve('static/og-image-orange.jpg'));
+			}
 			generated.set(variant, outputPath);
 			console.log(`Generated ${variant}: ${outputPath}`);
 		}
