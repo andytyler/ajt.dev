@@ -4,7 +4,7 @@
 	// import asciiArt from '$lib/assets/ascii-art-andy.png';
 	import asciiText from '$lib/assets/ascii-me.txt?raw';
 
-	let { markSource = '/favicon.svg' }: { markSource?: string } = $props();
+	let { markSource = '/favicon.svg?v=orange' }: { markSource?: string } = $props();
 
 	const profileHtml = $derived(markdownToHtml(profileMarkdown));
 </script>

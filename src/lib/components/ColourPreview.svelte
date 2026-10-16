@@ -9,7 +9,8 @@
 		cyan: '#06b6d4',
 		emerald: '#10b981',
 		ice: '#b8cfdb',
-		original: '#6b9fff'
+		original: '#ff6a00',
+		orange: '#ff6a00'
 	};
 	const requestedColour = $derived(page.url.searchParams.get('colour') ?? '');
 	const previewState = $derived(page.state as { previewColour?: string });
@@ -17,11 +18,11 @@
 		normaliseHex(previewState.previewColour ?? '') ??
 			normaliseHex(requestedColour) ??
 			namedColours[requestedColour] ??
-			'#88ff38'
+			'#ff6a00'
 	);
 	let hexDraft = $state<string | null>(null);
 	const markSource = $derived(
-		'data:image/svg+xml,' + encodeURIComponent(markSvg.replace(/#88ff38/gi, colour))
+		'data:image/svg+xml,' + encodeURIComponent(markSvg.replace(/#ff6a00/gi, colour))
 	);
 
 	function normaliseHex(value: string) {

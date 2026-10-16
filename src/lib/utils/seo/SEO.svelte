@@ -71,7 +71,7 @@
 
 	<!-- Additional SEO -->
 	<meta name="theme-color" content={themeColor} />
-	<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=88ff38" />
-	<link rel="icon" type="image/png" sizes="any" href="/favicon.png?v=88ff38" />
-	<link rel="apple-touch-icon" href="/favicon.png?v=88ff38" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=orange" />
+	<link rel="icon" type="image/png" sizes="any" href="/favicon.png?v=orange" />
+	<link rel="apple-touch-icon" href="/favicon.png?v=orange" />
 </svelte:head>
